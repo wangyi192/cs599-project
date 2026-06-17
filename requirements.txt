@@ -1,0 +1,16 @@
+﻿# LangGraph 多智能体编排
+langgraph>=0.2.60,<0.4.0
+
+# LangChain 核心抽象与 OpenAI 兼容云端模型接入
+langchain-core>=0.3.0,<0.4.0
+langchain-openai>=0.2.0,<0.4.0
+
+# 数据校验与环境变量加载
+pydantic>=2.8.0,<3.0.0
+python-dotenv>=1.0.1,<2.0.0
+
+# MCP Server 官方 Python SDK
+mcp>=1.0.0,<2.0.0
+
+# Redis 客户端，当前作为工程预留依赖，后续可替换 mock 指标来源
+redis>=5.0.0,<6.0.0
